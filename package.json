@@ -6,6 +6,6 @@
   "scripts": {
     "start": "node main.js"
   },
-  "author": "",
+  "author": "Vlad Linux",
   "license": "ISC"
 }
