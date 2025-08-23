@@ -9,18 +9,21 @@ class OutHandler{
         this.EnsureDir();
     }
 
+    // Есть ли директория указаная входном объекте
     EnsureDir(){
         if(!fs.existsSync(this.out)){
+            // Создает если нет
             fs.mkdirSync(this.out, {recursive: true});
             console.log(`Create Dir: ${this.out}`);
         }
     }
-
+    // Генерация имени для файла
     GeneraticName(ext){
         const timeSave = Date.now();
         return `${timeSave}.${ext}`;
     }
 
+    // Создание файла по указаной директории
     WriteFile(content, ext){
         const fileName = this.GeneraticName(ext); 
         const fullPath = path.join(this.out, fileName);

@@ -25,6 +25,6 @@ class FNBManager{
         parser.Parser();
     }
 }
-
+// Экземпляр точки входа
 const entryPoint = new FNBManager();
 entryPoint.run()
