@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node main.js"
   },
-  "author": "Vlad Linux",
+  "author": "Zenless Man Zero",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^0.22.0",
