@@ -23,7 +23,6 @@ class ArgvParser{
             out: options.out
         }
     }
-    // Добавить валидацию на входе
 }
 
 export default ArgvParser;
