@@ -2,10 +2,15 @@
   "name": "form-non-bi",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "type": "module",
+  "main": "FNBManager.js",
   "scripts": {
     "start": "node main.js"
   },
   "author": "Vlad Linux",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "commander": "^14.0.0"
+  }
 }
